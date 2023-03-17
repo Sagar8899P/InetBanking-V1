@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T11:34:04 IST" name="InerBanking2" finished-at="2023-03-17T11:34:59 IST" duration-ms="54966">
+    <groups>
+    </groups>
+    <test started-at="2023-03-17T11:34:04 IST" name="BankingApp Test1" finished-at="2023-03-17T11:34:59 IST" duration-ms="54966">
+      <class name="com.interbanking.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.interbanking.testCases.TC_LoginTest_001@710636b0]" started-at="2023-03-17T11:34:04 IST" name="setup" finished-at="2023-03-17T11:34:08 IST" duration-ms="3576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.interbanking.testCases.TC_LoginTest_001@710636b0]" started-at="2023-03-17T11:34:08 IST" name="loginTest" finished-at="2023-03-17T11:34:19 IST" duration-ms="10718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.interbanking.testCases.TC_LoginTest_001@710636b0]" started-at="2023-03-17T11:34:59 IST" name="tearDown" finished-at="2023-03-17T11:34:59 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.interbanking.testCases.TC_LoginTest_001 -->
+      <class name="com.interbanking.testCases.TC_AddCustomerTest_003">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.interbanking.testCases.TC_AddCustomerTest_003@2a8448fa]" started-at="2023-03-17T11:34:19 IST" name="addNewCustomer" finished-at="2023-03-17T11:34:59 IST" duration-ms="39938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+      </class> <!-- com.interbanking.testCases.TC_AddCustomerTest_003 -->
+    </test> <!-- BankingApp Test1 -->
+  </suite> <!-- InerBanking2 -->
+</testng-results>

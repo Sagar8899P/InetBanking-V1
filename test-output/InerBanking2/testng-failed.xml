@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InerBanking2]">
+  <listeners>
+    <listener class-name="com.inetbanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BankingApp Test1(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.interbanking.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginDDT"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.interbanking.testCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- BankingApp Test1(failed) -->
+</suite> <!-- Failed suite [InerBanking2] -->
